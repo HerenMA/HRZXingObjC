@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
     s.version      = "3.2.1"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.authors      = { "MONO" => "yinjianjun1@herenit.com" }
-    s.homepage     = "https://github.com/herenMA/ZXingObjC"
-    s.source       = { :git => "https://github.com/herenMA/ZXingObjC.git", :tag => s.version }
+    s.homepage     = "https://github.com/herenMA/HRZXingObjC"
+    s.source       = { :git => "https://github.com/herenMA/HRZXingObjC.git", :tag => s.version }
     s.requires_arc = true
     s.xcconfig     = { "OTHER_LDFLAGS" => "-ObjC"}
     s.platform     = :ios, "7.0"
