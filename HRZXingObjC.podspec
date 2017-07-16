@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name         = "ZXingObjC"
+    s.name         = "HRZXingObjC"
     s.summary      = "An Objective-C Port of the ZXing barcode framework."
     s.version      = "3.2.1"
     s.license      = { :type => "MIT", :file => "LICENSE" }
