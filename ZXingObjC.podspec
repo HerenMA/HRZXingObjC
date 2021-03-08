@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name         = "HRZXingObjC"
+    s.name         = "ZXingObjC"
     s.summary      = "An Objective-C Port of the ZXing barcode framework."
     s.version      = "3.2.1"
     s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
     s.platform     = :ios, "8.0"
     s.ios.deployment_target = "8.0"
     s.frameworks = "Foundation", "UIKit", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "ImageIO", "QuartzCore"
-    s.vendored_frameworks = "ZXingObjC/Classes/ZXingObjC.framework"
+    s.vendored_frameworks = "ios/ZXingObjC.framework"
 end
 
