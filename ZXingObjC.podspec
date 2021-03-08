@@ -12,5 +12,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.frameworks = "Foundation", "UIKit", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "ImageIO", "QuartzCore"
   s.vendored_frameworks = "ios/ZXingObjC.framework"
+  
+  s.ios.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.ios.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
 end
 
